@@ -86,7 +86,7 @@ function Contact() {
         </form>
         <a
           href="https://wa.me/+2347061016098"
-          className="text-green-500 text-7xl absolute right-3 mt-72 pb-12"
+          className="text-green-500 hover:text-green-700 text-7xl bottom-20 right-6 fixed z-50"
         >
           <FaWhatsapp />
         </a>

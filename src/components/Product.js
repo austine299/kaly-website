@@ -33,7 +33,7 @@ function Product() {
           <img
             src={img1}
             alt="product image1"
-            className="w-28 h-28 rounded-md"
+            className="w-48 h-48 rounded-md"
           />
           <span className="font-bold">Garri</span>
         </div>
@@ -41,7 +41,7 @@ function Product() {
           <img
             src={img2}
             alt="product image2"
-            className="w-28 h-28 rounded-md"
+            className="w-48 h-48 rounded-md"
           />
           <span className="font-bold">Grains</span>
         </div>
@@ -49,7 +49,7 @@ function Product() {
           <img
             src={img3}
             alt="product image3"
-            className="w-28 h-28 rounded-md"
+            className="w-48 h-48 rounded-md"
           />
           <span className="font-bold">Grains</span>
         </div>
@@ -57,7 +57,7 @@ function Product() {
           <img
             src={img4}
             alt="product image4"
-            className="w-28 h-28 rounded-md"
+            className="w-48 h-48 rounded-md"
           />
           <span className="font-bold">Grains</span>
         </div>
@@ -65,7 +65,7 @@ function Product() {
           <img
             src={img5}
             alt="product image2"
-            className="w-28 h-28 rounded-md"
+            className="w-48 h-48 rounded-md"
           />
           <span className="font-bold">Full Package</span>
         </div>
@@ -73,7 +73,7 @@ function Product() {
           <img
             src={img6}
             alt="product image3"
-            className="w-28 h-28 rounded-md"
+            className="w-48 h-48 rounded-md"
           />
           <span className="font-bold">Bag of rice</span>
         </div>
@@ -81,7 +81,7 @@ function Product() {
           <img
             src={img7}
             alt="product image4"
-            className="w-28 h-28 rounded-md"
+            className="w-48 h-48 rounded-md"
           />
           <span className="font-bold">Bag of rice</span>
         </div>
@@ -89,7 +89,7 @@ function Product() {
           <img
             src={img8}
             alt="product image5"
-            className="w-28 h-28 rounded-md"
+            className="w-48 h-48 rounded-md"
           />
           <span className="font-bold">Full bag of con</span>
         </div>
@@ -97,7 +97,7 @@ function Product() {
           <img
             src={img9}
             alt="product image9"
-            className="w-28 h-28 rounded-md"
+            className="w-48 h-48 rounded-md"
           />
           <span className="font-bold">Spaghettini</span>
         </div>
@@ -105,7 +105,7 @@ function Product() {
           <img
             src={img10}
             alt="product image10"
-            className="w-28 h-28 rounded-md"
+            className="w-48 h-48 rounded-md"
           />
           <span className="font-bold">Seasoning cubes</span>
         </div>
@@ -113,7 +113,7 @@ function Product() {
           <img
             src={img11}
             alt="product image11"
-            className="w-28 h-28 rounded-md"
+            className="w-48 h-48 rounded-md"
           />
           <span className="font-bold">Chicken seasoning</span>
         </div>
@@ -121,7 +121,7 @@ function Product() {
           <img
             src={img12}
             alt="product image12"
-            className="w-28 h-28 rounded-md"
+            className="w-48 h-48 rounded-md"
           />
           <span className="font-bold">Spaghettini</span>
         </div>
@@ -129,7 +129,7 @@ function Product() {
           <img
             src={img13}
             alt="product image13"
-            className="w-28 h-28 rounded-md"
+            className="w-48 h-48 rounded-md"
           />
           <span className="font-bold">Chicken flavour</span>
         </div>
@@ -137,7 +137,7 @@ function Product() {
           <img
             src={img14}
             alt="product imag6"
-            className="w-28 h-28 rounded-md"
+            className="w-48 h-48 rounded-md"
           />
           <span className="font-bold">Red pepe</span>
         </div>
@@ -145,7 +145,7 @@ function Product() {
           <img
             src={img15}
             alt="product imag7"
-            className="w-28 h-28 rounded-md"
+            className="w-48 h-48 rounded-md"
           />
           <span className="font-bold">Black pepe</span>
         </div>
@@ -153,7 +153,7 @@ function Product() {
           <img
             src={img16}
             alt="product image8"
-            className="w-28 h-28 rounded-md"
+            className="w-48 h-48 rounded-md"
           />
           <span className="font-bold">Half bag of rice</span>
         </div>
@@ -161,7 +161,7 @@ function Product() {
           <img
             src={img17}
             alt="product image9"
-            className="w-28 h-28 rounded-md"
+            className="w-48 h-48 rounded-md"
           />
           <span className="font-bold">Semolina</span>
         </div>
@@ -169,7 +169,7 @@ function Product() {
           <img
             src={img19}
             alt="product image19"
-            className="w-28 h-28 rounded-md"
+            className="w-48 h-48 rounded-md"
           />
           <span className="font-bold">Provision/Grains</span>
         </div>
@@ -177,7 +177,7 @@ function Product() {
           <img
             src={img20}
             alt="product image20"
-            className="w-28 h-28 rounded-md"
+            className="w-48 h-48 rounded-md"
           />
           <span className="font-bold">Beans</span>
         </div>
@@ -185,7 +185,7 @@ function Product() {
           <img
             src={img21}
             alt="product image21"
-            className="w-28 h-28 rounded-md"
+            className="w-48 h-48 rounded-md"
           />
           <span className="font-bold">Grains</span>
         </div>
@@ -193,7 +193,7 @@ function Product() {
           <img
             src={img22}
             alt="product image10"
-            className="w-28 h-28 rounded-md"
+            className="w-48 h-48 rounded-md"
           />
           <span className="font-bold">Rice</span>
         </div>
@@ -201,7 +201,7 @@ function Product() {
           <img
             src={img23}
             alt="product image11"
-            className="w-28 h-28 rounded-md"
+            className="w-48 h-48 rounded-md"
           />
           <span className="font-bold">Wheat</span>
         </div>
@@ -209,7 +209,7 @@ function Product() {
           <img
             src={img24}
             alt="product image12"
-            className="w-28 h-28 rounded-md"
+            className="w-48 h-48 rounded-md"
           />
           <span className="font-bold">Garri</span>
         </div>

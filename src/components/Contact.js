@@ -1,6 +1,30 @@
-import { FaFacebook, FaWhatsapp, FaTwitter, FaInstagram, FaSearch } from "react-icons/fa";
+import { error } from "ajv/dist/vocabularies/applicator/dependencies";
+import {
+  FaFacebook,
+  FaWhatsapp,
+  FaTwitter,
+  FaInstagram,
+  FaSearch,
+} from "react-icons/fa";
+import { data } from "react-router-dom";
 
 function Contact() {
+  const handlMassage = (e) => {
+    e.preventDefault()
+    const url =
+      "https://script.google.com/macros/s/AKfycbxkmkzs43CWQeHh_zteByPX3U2Qv9k4etjB65gmjB6um1URLOS3xn3vyfYa4D3P5m4ztA/exec";
+    fetch(url, {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: `Name=${e.target.name.value}&Email=${e.target.email.value}&Message=${e.target.message.value}`,
+    })
+      .then((res) => res.text())
+      .then((data) => {
+        alert(data);
+      })
+      .catch((error) => console.log(error));
+  };
+
   return (
     <section id="contact" className="bg-red-50 py-16 px-6 md:px-20">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10">
@@ -58,24 +82,27 @@ function Contact() {
         </div>
 
         {/* Right Side: Form */}
-        <form className="bg-gray-50 p-6 rounded-lg shadow-md space-y-4">
+        <form onSubmit={handlMassage} className="bg-gray-50 p-6 rounded-lg shadow-md space-y-4">
           <input
             type="text"
             placeholder="Your Name"
             className="w-full p-3 border rounded"
             required
+            name="name"
           />
           <input
             type="email"
             placeholder="Your Email"
             className="w-full p-3 border rounded"
             required
+            name="email"
           />
           <textarea
             rows="5"
             placeholder="Your Message"
             className="w-full p-3 border rounded"
             required
+            name="message"
           />
           <button
             type="submit"

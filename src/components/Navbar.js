@@ -55,7 +55,7 @@ function Navbar({showNavbar, setShowNavbar}) {
         {showNavbar ? (
         <X className="w-6 h-6 mr-5" />
       ) : (
-        <Menu className="w-6 h-6 mr-5" />
+        <Menu className="w-10 h-10 mr-5" />
       )}
       </button>
 

@@ -9,7 +9,7 @@ function Header(){
             <span className='text-white'>Healthy food for your lifestyle</span>
 
             <button className='mt-5 bg-red-500 text-white px-5 py-3 rounded-md hover:bg-red-400'>
-                Shop Now
+                Contact Us
             </button>
         </div>
     )

@@ -1,4 +1,5 @@
 import { error } from "ajv/dist/vocabularies/applicator/dependencies";
+import { useState } from "react";
 import {
   FaFacebook,
   FaWhatsapp,
@@ -8,9 +9,22 @@ import {
 } from "react-icons/fa";
 import { data } from "react-router-dom";
 
-function Contact() {
+function Contact({ contactRef }) {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
+
   const handlMassage = (e) => {
-    e.preventDefault()
+    e.preventDefault();
     const url =
       "https://script.google.com/macros/s/AKfycbxkmkzs43CWQeHh_zteByPX3U2Qv9k4etjB65gmjB6um1URLOS3xn3vyfYa4D3P5m4ztA/exec";
     fetch(url, {
@@ -23,10 +37,16 @@ function Contact() {
         alert(data);
       })
       .catch((error) => console.log(error));
+
+    setFormData({
+      name: "",
+      email: "",
+      message: "",
+    });
   };
 
   return (
-    <section id="contact" className="bg-red-50 py-16 px-6 md:px-20">
+    <section ref={contactRef} className="bg-red-50 py-16 px-6 md:px-20">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10">
         <div>
           <h2 className="text-3xl font-bold mb-4">Contact Us</h2>
@@ -82,12 +102,17 @@ function Contact() {
         </div>
 
         {/* Right Side: Form */}
-        <form onSubmit={handlMassage} className="bg-gray-50 p-6 rounded-lg shadow-md space-y-4">
+        <form
+          onSubmit={handlMassage}
+          className="bg-gray-50 p-6 rounded-lg shadow-md space-y-4"
+        >
           <input
             type="text"
             placeholder="Your Name"
             className="w-full p-3 border rounded"
             required
+            value={formData.name}
+            onChange={handleChange}
             name="name"
           />
           <input
@@ -95,6 +120,8 @@ function Contact() {
             placeholder="Your Email"
             className="w-full p-3 border rounded"
             required
+            value={formData.email}
+            onChange={handleChange}
             name="email"
           />
           <textarea
@@ -102,6 +129,8 @@ function Contact() {
             placeholder="Your Message"
             className="w-full p-3 border rounded"
             required
+            value={formData.message}
+            onChange={handleChange}
             name="message"
           />
           <button

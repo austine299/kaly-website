@@ -1,9 +1,9 @@
 import { FaFacebookF, FaInstagram, FaWhatsapp } from "react-icons/fa";
 import Logo from "../images/logo.jpg";
 
-function Footer() {
+function Footer({footerRef}) {
   return (
-    <footer className="bg-gray-800 text-white py-10 px-6 md:px-20">
+    <footer ref={footerRef} className="bg-gray-800 text-white py-10 px-6 md:px-20">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
         {/* Logo & Description */}
         <div>

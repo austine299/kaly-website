@@ -1,26 +1,44 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import Navbar from "./Navbar";
 import Header from "./Header";
 import Product from "./Product";
-import About from './About'
-import Contact from './Contact'
+import About from "./About";
+import Contact from "./Contact";
 import Footer from "./Footer";
 
+function Home() {
+  const [showNavbar, setShowNavbar] = useState(false);
 
-function Home(){
-    const [showNavbar, setShowNavbar] = useState(false);
+  const homeRef = useRef(null);
+  const aboutRef = useRef(null);
+  const contactRef = useRef(null);
+  const productRef = useRef(null);
+  const footerRef = useRef(null);
 
-    return(
-        <div>
-            <Navbar showNavbar = {showNavbar} setShowNavbar= {setShowNavbar}/>
-            <Header/>
-            <Product/>
-            <About/>
-            <Contact/>
-            <Footer/>
-            
-        </div>
-    )
+  const scrollToSection = (ref) => {
+    ref.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
+  return (
+    <div>
+      <Navbar
+        productRef={productRef}
+        contactRef={contactRef}
+        aboutRef={aboutRef}
+        homeRef={homeRef}
+        footerRef={footerRef}
+        scrollToSection={scrollToSection}
+        showNavbar={showNavbar}
+        setShowNavbar={setShowNavbar}
+      />
+      <Header homeRef={homeRef} 
+        scrollToSection={scrollToSection} contactRef={contactRef}/>
+      <Product productRef={productRef} />
+      <About aboutRef={aboutRef} />
+      <Contact contactRef={contactRef} />
+      <Footer footerRef={footerRef} />
+    </div>
+  );
 }
 
 export default Home;

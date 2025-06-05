@@ -1,0 +1,201 @@
+
+
+
+[
+  {
+    "id": 1,
+    "name": "Garri",
+    "image": "1.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "Grains",
+    "image": "2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Grains",
+    "image": "3.webp"
+  },
+  {
+    "id": 4,
+    "name": "Grains",
+    "image": "4.webp"
+  },
+  {
+    "id": 5,
+    "name": "Full Package",
+    "image": "5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Bag of rice",
+    "image": "6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Bag of rice",
+    "image": "7.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Full bag of corn",
+    "image": "8.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Spaghettini",
+    "image": "9.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Seasoning cubes",
+    "image": "10.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Chicken seasoning",
+    "image": "11.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Spaghettini",
+    "image": "12.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Chicken flavour",
+    "image": "13.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Red pepper",
+    "image": "14.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Black pepper",
+    "image": "15.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Half bag of rice",
+    "image": "16.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Semolina",
+    "image": "17.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Grains",
+    "image": "18.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Provision/Grains",
+    "image": "19.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Beans",
+    "image": "20.webp"
+  },
+  {
+    "id": 21,
+    "name": "Grains",
+    "image": "21.webp"
+  },
+  {
+    "id": 22,
+    "name": "Rice",
+    "image": "22.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Wheat",
+    "image": "23.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Garri",
+    "image": "24.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Kings groundnut Oil",
+    "image": "25.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Power Oil",
+    "image": "26.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Sachet Power Oil",
+    "image": "27.jpg"
+  },
+  {
+    "id": 28,
+    "name": "Red Oil",
+    "image": "28.jpg"
+  },
+  {
+    "id": 29,
+    "name": "Red Oil",
+    "image": "29.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Red Oil",
+    "image": "30.jpg"
+  },
+  
+  {
+    "id": 32,
+    "name": "Macaroni",
+    "image": "32.jpg"
+  },
+  {
+    "id": 33,
+    "name": "Fish (Mangala)",
+    "image": "33.jpg"
+  },
+  {
+    "id": 34,
+    "name": "Fish (Mangala)",
+    "image": "34.jpg"
+  },
+  {
+    "id": 35,
+    "name": "Stockfish Head ",
+    "image": "35.jpg"
+  },
+  {
+    "id": 36,
+    "name": "Stockfish Head ",
+    "image": "36.jpg"
+  },
+  {
+    "id": 37,
+    "name": "Stockfish cutlet",
+    "image": "37.jpg"
+  },
+  {
+    "id": 38,
+    "name": "Stockfish Ears",
+    "image": "38.jpg"
+  },
+  {
+    "id": 39,
+    "name": "Stockfish Flakes",
+    "image": "39.jpg"
+  },
+  {
+    "id": 40,
+    "name": "Dry Catfish",
+    "image": "40.jpg"
+  }
+]

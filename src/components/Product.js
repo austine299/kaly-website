@@ -32,7 +32,7 @@ function Product({ productRef }) {
                   : ""}>
                 <img
                   src={require(`../images/${product.image}`)}
-                  alt="product image1"
+                  alt={product.name}
                   className={
                     selectedProduct?.id === product.id
                       ? "sm:w-72 w-72 h-60  rounded-md"

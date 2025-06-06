@@ -67,7 +67,7 @@ function Checkout() {
         <button
           disabled={!name || !phone}
           onClick={handleSendToWhatsApp}
-          className="w-full px-4 py-2 bg-green-600 text-white font-bold rounded hover:bg-green-500 disabled:opacity-50"
+          className="w-full px-4 py-2 bg-red-600 text-white font-bold rounded hover:bg-red-500 disabled:opacity-50"
         >
           Send Order via WhatsApp
         </button>

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kaly-website/static/css/main.da359901.css",
-    "main.js": "/kaly-website/static/js/main.ee3d9061.js",
+    "main.js": "/kaly-website/static/js/main.d0448ee6.js",
     "static/js/239.0009f875.chunk.js": "/kaly-website/static/js/239.0009f875.chunk.js",
     "static/js/977.1197c364.chunk.js": "/kaly-website/static/js/977.1197c364.chunk.js",
     "static/js/455.039cc84b.chunk.js": "/kaly-website/static/js/455.039cc84b.chunk.js",
@@ -50,13 +50,13 @@
     "static/media/42.jpg": "/kaly-website/static/media/42.61cbdc60f2e8d6b9addd.jpg",
     "index.html": "/kaly-website/index.html",
     "main.da359901.css.map": "/kaly-website/static/css/main.da359901.css.map",
-    "main.ee3d9061.js.map": "/kaly-website/static/js/main.ee3d9061.js.map",
+    "main.d0448ee6.js.map": "/kaly-website/static/js/main.d0448ee6.js.map",
     "239.0009f875.chunk.js.map": "/kaly-website/static/js/239.0009f875.chunk.js.map",
     "977.1197c364.chunk.js.map": "/kaly-website/static/js/977.1197c364.chunk.js.map",
     "455.039cc84b.chunk.js.map": "/kaly-website/static/js/455.039cc84b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.da359901.css",
-    "static/js/main.ee3d9061.js"
+    "static/js/main.d0448ee6.js"
   ]
 }

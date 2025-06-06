@@ -3,6 +3,9 @@ import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../images/logo.jpg";
+import { useContext } from "react";
+import { CartContext } from "./CartContext";
+import { FaCartShopping } from "react-icons/fa6";
 
 function Navbar({
   showNavbar,
@@ -14,6 +17,10 @@ function Navbar({
   productRef,
   footerRef,
 }) {
+
+   const { cartItems } = useContext(CartContext);
+  const cartCount = cartItems.reduce((total, item) => total + item.quantity, 0);
+
   const handleNavbar = () => {
     setShowNavbar(!showNavbar);
   };
@@ -50,6 +57,12 @@ function Navbar({
           >
             CONTACT
           </a>
+          <Link
+            to='/cart'
+            className="flex font-bold cursor-pointer p-4 rounded-md hover:text-red-600"
+          >
+            <FaCartShopping/>{cartCount}
+          </Link>
           <a className="font-bold hover:bg-red-400 p-4 rounded-md hover:text-white">
             <FaSearch />
           </a>
@@ -90,6 +103,12 @@ function Navbar({
             >
               CONTACT
             </a>
+            <Link
+            to='/cart'
+            className="flex font-bold cursor-pointer p-4 rounded-md hover:text-red-600"
+          >
+            <FaCartShopping/>{cartCount}
+          </Link>
             <a className="font-bold hover:bg-red-400 p-4 rounded-md hover:text-white">
               <FaSearch />
             </a>

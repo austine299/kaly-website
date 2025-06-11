@@ -8,29 +8,44 @@ function Checkout() {
   const navigate = useNavigate();
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
+  const handleSendToWhatsApp = async () => {
+    try {
+      const doc = new jsPDF();
+      doc.setFontSize(18);
+      doc.text("Order Summary", 10, 10);
+      doc.setFontSize(12);
+      let y = 20;
 
-  const handleSendToWhatsApp = () => {
-    const doc = new jsPDF();
+      for (const item of cartItems) {
+        const img = new Image();
+        img.src = `/images/${item.image}`;
 
-    doc.setFontSize(18);
-    doc.text("Order Summary", 10, 10);
-    doc.setFontSize(12);
+        await new Promise((resolve, reject) => {
+          img.onload = () => {
+            doc.addImage(img, "JPEG", 10, y, 30, 30);
+            resolve();
+          };
+          img.onerror = () => {
+            console.error("Error loading image:", item.image);
+            console.error("Image URL:", img.src);
+            console.error("Item:", item);
+            resolve(); // Continue with the next item
+          };
+        });
 
-    let y = 20;
-    cartItems.forEach((item, index) => {
-      doc.text(`${index + 1}. ${item.name} x ${item.quantity}`, 10, y);
-      y += 10;
-    });
+        doc.text(`${item.name} x ${item.quantity}`, 45, y + 15);
+        y += 40;
+      }
 
-    doc.text(`Customer Name: ${name}`, 10, y + 10);
-    doc.text(`Phone Number: ${phone}`, 10, y + 20);
+      doc.text(`Customer Name: ${name}`, 10, y + 10);
+      doc.text(`Phone Number: ${phone}`, 10, y + 20);
+      doc.save("order-summary.pdf");
 
-    doc.save("order-summary.pdf");
-
-     const orderMessage = `🛒 *New Order:*\n` +
-     cartItems.map(item =>
-        `${item.image} - ${item.name} (x${item.quantity})`
-      ).join("\n") +
+       const orderMessage =
+      `🛒 *New Order:*\n` +
+      cartItems
+        .map((item) => `${item.image} - ${item.name} (x${item.quantity})`)
+        .join("\n") +
       `\n\n*Name:* ${name}\n*Phone:* ${phone}`;
 
     const whatsappURL = `https://wa.me/+2347061016098?text=${encodeURIComponent(
@@ -38,8 +53,13 @@ function Checkout() {
     )}`;
     window.open(whatsappURL, "_blank");
 
-    clearCart();
-    navigate("/");
+
+
+      clearCart();
+      navigate("/");
+    } catch (error) {
+      console.error("Error generating PDF or sending WhatsApp message:", error);
+    }
   };
 
   return (

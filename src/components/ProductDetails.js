@@ -42,7 +42,7 @@ function ProductDetails() {
       <div className="flex flex-col items-center justify-center">
         <div className="flexflex-col justify-start">
           <img
-            src={require(`../images/${product.image}`)}
+            src={require(`/public/images/${product.image}`)}
             alt={product.name}
             className="w-80 h-80 rounded-md mb-4"
           />

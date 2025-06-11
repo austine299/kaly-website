@@ -6,11 +6,6 @@ function Cart() {
   const { cartItems, increaseQty, decreaseQty, removeFromCart } =
     useContext(CartContext);
 
-  const totalPrice = cartItems.reduce(
-    (sum, item) => sum + item.price * item.quantity,
-    0
-  );
-
   if (cartItems.length === 0) {
     return (
       <div className="p-8 text-center">
@@ -39,7 +34,7 @@ function Cart() {
           >
             <div className="flex justify-center items-center gap-4">
               <img
-                src={require(`../images/${item.image}`)}
+                src={require(`/public/images/${item.image}`)}
                 alt={item.name}
                 className="w-20 h-20 object-cover rounded"
               />

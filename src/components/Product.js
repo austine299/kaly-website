@@ -3,16 +3,6 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 function Product({ productRef }) {
-  const [selectedProduct, setSelectedProduct] = useState(null);
-
-  const handleProductClick = (product) => {
-    if (selectedProduct?.id === product.id) {
-      setSelectedProduct(null); // close modal
-    } else {
-      setSelectedProduct(product); // open modal for clicked product
-    }
-  };
-
   return (
     <div ref={productRef} className="flex flex-col gap-6 items-center">
       <h1 className="text-2xl font-bold p-7">Our Product</h1>
@@ -25,19 +15,24 @@ function Product({ productRef }) {
               className="flex flex-col justify-center items-center text-center "
             >
               <div
-              // onClick={() => handleProductClick(product)}
                 id={product.id}
-                className=""
+                className="hover:shadow-2xl transition duration-300 rounded-md"
               >
-                <img
-                  src={require(`../images/${product.image}`)}
-                  alt={product.name}
-                  className= "sm:w-48 sm:h-48 w-32 h-32  rounded-md"
-                />
+                <Link to={`product/${product.id}`}>
+                  <img
+                    src={`/images/${product.image}`}
+                    alt={product.name}
+                    className="sm:w-48 sm:h-48 w-32 h-32  rounded-md"
+                  />
+                </Link>
                 <p className="font-bold sm:w-48 w-32 mt-2">{product.name}</p>
-               
               </div>
-              <Link to={`product/${product.id}`} className="bg-red-600 hover:bg-red-400 text-white font-bold px-2 py-1 rounded-md mt-3">Shop Now</Link>
+              <Link
+                to={`product/${product.id}`}
+                className="bg-red-600 hover:bg-red-400 text-white font-bold px-2 py-1 rounded-md mt-3"
+              >
+                Shop Now
+              </Link>
             </div>
           ))}
         </div>

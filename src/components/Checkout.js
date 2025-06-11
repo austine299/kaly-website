@@ -41,14 +41,16 @@ function Checkout() {
       doc.text(`Phone Number: ${phone}`, 10, y + 20);
       doc.save("order-summary.pdf");
 
+      const baseUrl = "http://localhost:3002"
+
        const orderMessage =
       `🛒 *New Order:*\n` +
       cartItems
-        .map((item) => `${item.image} - ${item.name} (x${item.quantity})`)
+        .map((item) => `${baseUrl}/images/${item.image} \n` + `${item.name} (x${item.quantity})`)
         .join("\n") +
       `\n\n*Name:* ${name}\n*Phone:* ${phone}`;
 
-    const whatsappURL = `https://wa.me/+2347061016098?text=${encodeURIComponent(
+    const whatsappURL = `https://wa.me/+2349029119233?text=${encodeURIComponent(
       orderMessage
     )}`;
     window.open(whatsappURL, "_blank");

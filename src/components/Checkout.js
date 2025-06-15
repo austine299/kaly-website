@@ -3,6 +3,7 @@ import { CartContext } from "./CartContext";
 import { useNavigate } from "react-router-dom";
 import jsPDF from "jspdf";
 
+
 function Checkout() {
   const { cartItems, clearCart } = useContext(CartContext);
   const navigate = useNavigate();
@@ -41,7 +42,8 @@ function Checkout() {
       doc.text(`Phone Number: ${phone}`, 10, y + 20);
       doc.save("order-summary.pdf");
 
-      const baseUrl = "http://localhost:3002"
+      const baseUrl = process.env.REACT_APP_BASE_URL;
+
 
        const orderMessage =
       `🛒 *New Order:*\n` +
@@ -50,7 +52,7 @@ function Checkout() {
         .join("\n") +
       `\n\n*Name:* ${name}\n*Phone:* ${phone}`;
 
-    const whatsappURL = `https://wa.me/+2349029119233?text=${encodeURIComponent(
+    const whatsappURL = `https://wa.me/+2347061016098?text=${encodeURIComponent(
       orderMessage
     )}`;
     window.open(whatsappURL, "_blank");

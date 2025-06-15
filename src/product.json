@@ -242,5 +242,41 @@
     "name": "Dry Catfish",
     "image": "40.jpg",
     "description": "Fish"
+  },
+  {
+    "id": 41,
+    "name": "SUYA SPICES-YAJI 80g",
+    "image": "55.jpg",
+    "description": "BISISFLAVORS"
+  },
+  {
+    "id": 42,
+    "name": " PEPPER SOUP SPICES 80g",
+    "image": "56.jpg",
+    "description": "BISISFLAVORS"
+  },
+  {
+    "id": 43,
+    "name": "SMOKED PAPRIKA POWDER 90g",
+    "image": "57.jpg",
+    "description": "BISISFLAVORS"
+  },
+  {
+    "id": 44,
+    "name": "CURRY POWDER 80g",
+    "image": "58.jpg",
+    "description": "BISISFLAVORS"
+  },
+  {
+    "id": 45,
+    "name": "GROUND CAYENNE PEPPER (ATAGUNGUN)",
+    "image": "59.jpg",
+    "description": "BISISFLAVORS"
+  },
+  {
+    "id": 46,
+    "name": "GINGER POWDER 90g",
+    "image": "60.jpg",
+    "description": "BISISFLAVORS"
   }
 ]

@@ -48,7 +48,7 @@ function Checkout() {
        const orderMessage =
       `🛒 *New Order:*\n` +
       cartItems
-        .map((item) => `${baseUrl}/images/${item.image} \n` + `${item.name} (x${item.quantity})`)
+        .map((item) => `${baseUrl}${item.id} \n` + `${item.name} (x${item.quantity})`)
         .join("\n") +
       `\n\n*Name:* ${name}\n*Phone:* ${phone}`;
 

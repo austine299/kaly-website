@@ -1,5 +1,5 @@
 import { FaFacebookF, FaInstagram, FaWhatsapp } from "react-icons/fa";
-import Logo from "../images/logo.jpg";
+
 
 function Footer({footerRef}) {
   return (
@@ -8,7 +8,7 @@ function Footer({footerRef}) {
         {/* Logo & Description */}
         <div>
           <div>
-            <img src={Logo} className="w-16 sm:w-20 rounded-full" />
+            <img src="/images/logo.jpg" className="w-16 sm:w-20 rounded-full" alt="Logo"/>
           </div>
           <p className="mt-4 text-gray-300">
             Supplying quality grains and household essentials across the world.

@@ -1,7 +1,7 @@
 
 import './App.css';
 import {Helmet} from "react-helmet";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './components/Home';
 import ProductDetails from "./components/ProductDetails";
 import { CartProvider } from './components/CartContext';

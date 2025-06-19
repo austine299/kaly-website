@@ -43,18 +43,20 @@ function Checkout() {
       doc.save("order-summary.pdf");
 
       const baseUrl = process.env.REACT_APP_BASE_URL;
+      const num = process.env.REACT_APP_MOBILE;
 
  
        const orderMessage =
       `🛒 *New Order:*\n` +
       cartItems
-        .map((item) => `${baseUrl}${item.id} \n` + `${item.name} (x${item.quantity})`)
+        .map((item) => `${baseUrl}/product/${item.id} \n` + `${item.name} (x${item.quantity})`)
         .join("\n") +
       `\n\n*Name:* ${name}\n*Phone:* ${phone}`;
 
-    const whatsappURL = `https://wa.me/+2347061016098?text=${encodeURIComponent(
+    const whatsappURL = `https://wa.me/+${num}?text=${encodeURIComponent(
       orderMessage
     )}`;
+    console.log("WhatsApp URL:", whatsappURL);
     window.open(whatsappURL, "_blank");
 
 

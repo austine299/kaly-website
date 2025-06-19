@@ -54,10 +54,9 @@ function Checkout() {
         .join("\n") +
       `\n\n*Name:* ${name}\n*Phone:* ${phone}`;
 
-    const whatsappURL = `https://wa.me/+${num}?text=${encodeURIComponent(
+    const whatsappURL = `https://wa.me/${num}?text=${encodeURIComponent(
       orderMessage
     )}`;
-    console.log("WhatsApp URL:", whatsappURL);
     window.open(whatsappURL, "_blank");
 
 

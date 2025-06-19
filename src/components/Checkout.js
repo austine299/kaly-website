@@ -49,6 +49,7 @@ function Checkout() {
       `🛒 *New Order:*\n` +
       cartItems
         .map((item) => `${baseUrl}${item.id} \n` + `${item.name} (x${item.quantity})`)
+
         .join("\n") +
       `\n\n*Name:* ${name}\n*Phone:* ${phone}`;
 

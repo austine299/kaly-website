@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Product({ productRef }) {
   return (
     <div ref={productRef} className="flex flex-col gap-6 items-center">
-      <h1 className="text-2xl font-bold p-7">Our Product</h1>
+      <h1 className="text-2xl font-extrabold p-7">Our Product</h1>
       <div className="flex flex-col gap-6 items-center py-16 px-6 md:px-20 w-full bg-red-50 ">
         <div className="flex sm:flex-row flex-cols flex-wrap  gap-9 sm:max-w-6xl h-full mx-auto">
           {products.map((product) => (

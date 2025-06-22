@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/kaly-website/static/css/main.da359901.css",
-    "main.js": "/kaly-website/static/js/main.d0448ee6.js",
+    "main.css": "/kaly-website/static/css/main.617353d2.css",
+    "main.js": "/kaly-website/static/js/main.b4f44463.js",
     "static/js/239.0009f875.chunk.js": "/kaly-website/static/js/239.0009f875.chunk.js",
     "static/js/977.1197c364.chunk.js": "/kaly-website/static/js/977.1197c364.chunk.js",
-    "static/js/455.039cc84b.chunk.js": "/kaly-website/static/js/455.039cc84b.chunk.js",
+    "static/js/455.1e26ae58.chunk.js": "/kaly-website/static/js/455.1e26ae58.chunk.js",
     "static/media/5.jpg": "/kaly-website/static/media/5.f1a5dbec1b968cbcdd26.jpg",
     "static/media/12.jpg": "/kaly-website/static/media/12.2623ccc9af701014c63f.jpg",
     "static/media/13.jpg": "/kaly-website/static/media/13.4171010544b0f24e0b2d.jpg",
@@ -27,6 +27,7 @@
     "static/media/35.jpg": "/kaly-website/static/media/35.4816291a3fa6ab07d450.jpg",
     "static/media/23.jpg": "/kaly-website/static/media/23.efb57e27bb683038f5d2.jpg",
     "static/media/4.webp": "/kaly-website/static/media/4.b337c00cea633a9e34f8.webp",
+    "static/media/56.jpg": "/kaly-website/static/media/56.f9418ac9a88d63f64feb.jpg",
     "static/media/38.jpg": "/kaly-website/static/media/38.9d8ca8a38145233e7ed5.jpg",
     "static/media/logo.jpg": "/kaly-website/static/media/logo.20ecdcdb6917b2b5437d.jpg",
     "static/media/22.jpg": "/kaly-website/static/media/22.0f71e1fb03ba401f5d7d.jpg",
@@ -34,12 +35,18 @@
     "static/media/19.jpg": "/kaly-website/static/media/19.32eb0955563ddc2543d9.jpg",
     "static/media/18.jpg": "/kaly-website/static/media/18.17c8eb9d184e28421434.jpg",
     "static/media/24.jpg": "/kaly-website/static/media/24.7f47c34277112513ff28.jpg",
+    "static/media/57.jpg": "/kaly-website/static/media/57.64d79e6b669dd8733e68.jpg",
+    "static/media/55.jpg": "/kaly-website/static/media/55.f156b3a54a54826ebd41.jpg",
     "static/media/36.jpg": "/kaly-website/static/media/36.09c36db50faa18552e89.jpg",
     "static/media/31.jpg": "/kaly-website/static/media/31.976ebde01ac9bdb54405.jpg",
     "static/media/40.jpg": "/kaly-website/static/media/40.4cb2e1921fb975c9e838.jpg",
+    "static/media/60.jpg": "/kaly-website/static/media/60.7c91ddc75e8d983294c9.jpg",
+    "static/media/59.jpg": "/kaly-website/static/media/59.37e15f4f6291e7d5bb50.jpg",
+    "static/media/58.jpg": "/kaly-website/static/media/58.03bf7a84c04edbc8ba7e.jpg",
     "static/media/27.jpg": "/kaly-website/static/media/27.f58ec3cb14145d5e5948.jpg",
     "static/media/32.jpg": "/kaly-website/static/media/32.d6050c5d78c8253c8eac.jpg",
     "static/media/28.jpg": "/kaly-website/static/media/28.37470fcfc52328d5550f.jpg",
+    "static/media/61.jpg": "/kaly-website/static/media/61.faa146248f28125e4d54.jpg",
     "static/media/1.jpeg": "/kaly-website/static/media/1.baf20e7dea4d9e2a79dd.jpeg",
     "static/media/25.jpg": "/kaly-website/static/media/25.a1785d4cc66facadb155.jpg",
     "static/media/26.jpg": "/kaly-website/static/media/26.f2cbed3936e7813a3ccd.jpg",
@@ -49,14 +56,14 @@
     "static/media/53.jpg": "/kaly-website/static/media/53.99f0e8b5e63173fb91ac.jpg",
     "static/media/42.jpg": "/kaly-website/static/media/42.61cbdc60f2e8d6b9addd.jpg",
     "index.html": "/kaly-website/index.html",
-    "main.da359901.css.map": "/kaly-website/static/css/main.da359901.css.map",
-    "main.d0448ee6.js.map": "/kaly-website/static/js/main.d0448ee6.js.map",
+    "main.617353d2.css.map": "/kaly-website/static/css/main.617353d2.css.map",
+    "main.b4f44463.js.map": "/kaly-website/static/js/main.b4f44463.js.map",
     "239.0009f875.chunk.js.map": "/kaly-website/static/js/239.0009f875.chunk.js.map",
     "977.1197c364.chunk.js.map": "/kaly-website/static/js/977.1197c364.chunk.js.map",
-    "455.039cc84b.chunk.js.map": "/kaly-website/static/js/455.039cc84b.chunk.js.map"
+    "455.1e26ae58.chunk.js.map": "/kaly-website/static/js/455.1e26ae58.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.da359901.css",
-    "static/js/main.d0448ee6.js"
+    "static/css/main.617353d2.css",
+    "static/js/main.b4f44463.js"
   ]
 }

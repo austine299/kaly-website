@@ -27,7 +27,7 @@ function Navbar({
     <div className="flex flex-col">
       <div className="flex items-start justify-between p-8">
         <div className="cursor-pointer">
-          <img src="/images/logo.jpg" className="w-16 sm:w-20 rounded-full"  alt="Logo"/>
+          <img src={`${process.env.PUBLIC_URL}/images/logo.jpg`} className="w-16 sm:w-20 rounded-full"  alt="Logo"/>
         </div>
 
         <div className="hidden sm:flex sm:flex-row flex-col gap-5">

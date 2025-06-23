@@ -8,7 +8,7 @@ function Footer({footerRef}) {
         {/* Logo & Description */}
         <div>
           <div>
-            <img src="/images/logo.jpg" className="w-16 sm:w-20 rounded-full" alt="Logo"/>
+            <img src={`${process.env.PUBLIC_URL}/images/logo.jpg`} className="w-16 sm:w-20 rounded-full" alt="Logo"/>
           </div>
           <p className="mt-4 text-gray-300">
             Supplying quality grains and household essentials across the world.

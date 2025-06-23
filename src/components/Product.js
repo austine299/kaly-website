@@ -20,7 +20,7 @@ function Product({ productRef }) {
               >
                 <Link to={`product/${product.id}`}>
                   <img
-                    src={`/images/${product.image}`}
+                    src={`${process.env.PUBLIC_URL}/images/${product.image}`}
                     alt={product.name}
                     className="sm:w-48 sm:h-48 w-32 h-32  rounded-md"
                   />

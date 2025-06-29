@@ -3,11 +3,14 @@ import './App.css';
 import {Helmet} from "react-helmet";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './components/Home';
-import Product from './components/Product';
+import ProductDetails from "./components/ProductDetails";
+import { CartProvider } from './components/CartContext';
+import Cart from './components/Cart';
+import Checkout from './components/Checkout';
 
 function App() {
   return (
-    <div>
+    <CartProvider>
       <Helmet>
         <title>Kaly's Grain n More</title>
         <meta name="description" content="Welcome to Kaly's Grain n More. Your one-stop shop for all things grocery and more!" />
@@ -15,11 +18,13 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' element ={<Home/>}/>
-          <Route path='/product' element ={<Product/>}/>
+        <Route path="/product/:id" element={<ProductDetails />} />
+        <Route path="/cart" element={<Cart />} />
+        <Route path="/checkout" element={<Checkout />} />
         </Routes>
       </Router>
 
-    </div>
+    </CartProvider>
   );
 }
 

@@ -1,0 +1,282 @@
+
+
+
+[
+  {
+    "id": 1,
+    "name": "Yellow Garri 3.5kg",
+    "image": "1.jpeg",
+    "description": "Garri"
+  },
+  {
+    "id": 2,
+    "name": "Rice 50kg",
+    "image": "41.jpg",
+    "description": "Mama Gold"
+  },
+  {
+    "id": 3,
+    "name": "Rice 50kg",
+    "image": "42.jpg",
+    "description": "Mama Pride"
+  },
+  {
+    "id": 4,
+    "name": "Wheat 50kg",
+    "image": "51.jpg",
+    "description": " Wheat"
+  },
+  {
+    "id": 5,
+    "name": "Yellow Garri 50kg",
+    "image": "46.jpg",
+    "description": "Garri"
+  },
+  {
+    "id": 6,
+   "name": "White Garri 50kg",
+    "image": "47.jpg",
+    "description": "Garri"
+  },
+  {
+    "id": 7,
+    "name": "Yellow Garri 25kg",
+    "image": "48.jpg",
+    "description": ""
+  },
+  {
+    "id": 8,
+    "name": "Ijebu Garri 25kg",
+    "image": "49.jpg",
+    "description": "Garri Ijebu"
+  },
+  {
+    "id": 9,
+    "name": "Spaghetti",
+    "image": "9.jpg",
+    "description": "Golden Panny"
+  },
+  {
+    "id": 10,
+    "name": "Knorr Beef cubes",
+    "image": "10.jpg",
+    "description": "Seasoning"
+  },
+  {
+    "id": 11,
+    "name": "Knorr Chicken Cubes",
+    "image": "11.jpg",
+    "description": "Seasoning"
+  },
+  {
+    "id": 12,
+    "name": "Spaghettini",
+    "image": "12.jpg",
+    "description": "Golden Panny"
+  },
+  {
+    "id": 13,
+    "name": "Knorr Chicken flavour",
+    "image": "13.jpg",
+    "description": "Seasoning"
+  },
+  {
+    "id": 14,
+    "name": "Red pepper",
+    "image": "14.jpg",
+    "description": "Dry Grinded Pepper"
+  },
+  {
+    "id": 15,
+    "name": "Black pepper",
+    "image": "15.jpg",
+    "description": "Dry Grinded Pepper"
+  },
+  {
+    "id": 16,
+    "name": "Semovita",
+    "image": "16.jpg",
+    "description": "Golden Panny"
+  },
+  {
+    "id": 17,
+    "name": "Semolina",
+    "image": "17.jpg",
+    "description": "Honnywell"
+  },
+  {
+    "id": 18,
+    "name": "Crayfish",
+    "image": "54.jpg",
+    "description": "Full Bag of Crayfish"
+  },
+  {
+    "id": 19,
+    "name": "Rice 25kg",
+    "image": "44.jpg",
+    "description": "Mama Choice"
+  },
+  {
+    "id": 20,
+    "name": "Beans 3.5kg",
+    "image": "20.webp",
+    "description": ""
+  },
+  {
+    "id": 21,
+    "name": "Rice 25kg",
+    "image": "45.jpg",
+    "description": "Mama Gold"
+  },
+  {
+    "id": 22,
+    "name": "melon seed (egusi)",
+    "image": "22.jpg",
+    "description": "Melon"
+  },
+  {
+    "id": 23,
+    "name": "Whole wheat meal 3.5kg",
+    "image": "23.jpg",
+    "description": "Whole wheat"
+  },
+  {
+    "id": 24,
+    "name": "Garri",
+    "image": "24.jpg",
+    "description": "White Garri"
+  },
+  {
+    "id": 25,
+    "name": "groundnut Oil 5 liters",
+    "image": "25.jpg",
+    "description": " Kings groundnut Oil "
+  },
+  {
+    "id": 26,
+    "name": "groundnut Oil 1 liters",
+    "image": "26.jpg",
+    "description": "Power Oil"
+  },
+  {
+    "id": 54,
+    "name": "Crayfish",
+    "image": "54.jpg",
+    "description": "Half Bag of Crayfish"
+  },
+  {
+    "id": 27,
+    "name": "Sachet Oil",
+    "image": "27.jpg",
+    "description": "Power Oil"
+  },
+  {
+    "id": 28,
+    "name": "Red Oil (1 liter, 2 liters, 5 liters)",
+    "image": "28.jpg",
+    "description": "Red Oil"
+  },
+  {
+    "id": 29,
+    "name": "Red Oil 3 liters",
+    "image": "29.jpg",
+    "description": "Red Oil"
+  },
+  {
+    "id": 30,
+    "name": "Red Oil (1 liter, 2 liters, 5 liters)",
+    "image": "30.jpg",
+    "description": "Red Oil"
+  },
+  
+  {
+    "id": 32,
+    "name": "Golden Panny Macaroni 500g",
+    "image": "32.jpg",
+    "description": "Golden Panny"
+  },
+  {
+    "id": 33,
+    "name": "Fish (Mangala)",
+    "image": "33.jpg",
+    "description": "Fish"
+  },
+  {
+    "id": 34,
+    "name": "Fish (Mangala)",
+    "image": "34.jpg",
+    "description": "Fish"
+  },
+  {
+    "id": 35,
+    "name": "Stockfish Head ",
+    "image": "35.jpg",
+    "description": "Fish"
+  },
+  {
+    "id": 36,
+    "name": "Stockfish Head ",
+    "image": "36.jpg",
+    "description": "Fish"
+  },
+  {
+    "id": 37,
+    "name": "Stockfish cutlet",
+    "image": "37.jpg",
+    "description": "Fish"
+  },
+  {
+    "id": 38,
+    "name": "Stockfish Ears",
+    "image": "38.jpg",
+    "description": "Fish"
+  },
+  {
+    "id": 39,
+    "name": "Stockfish Flakes",
+    "image": "39.jpg",
+    "description": "Fish"
+  },
+  {
+    "id": 40,
+    "name": "Dry Catfish",
+    "image": "40.jpg",
+    "description": "Fish"
+  },
+  {
+    "id": 41,
+    "name": "SUYA SPICES-YAJI 80g",
+    "image": "55.jpg",
+    "description": "BISISFLAVORS"
+  },
+  {
+    "id": 42,
+    "name": " PEPPER SOUP SPICES 80g",
+    "image": "56.jpg",
+    "description": "BISISFLAVORS"
+  },
+  {
+    "id": 43,
+    "name": "SMOKED PAPRIKA POWDER 90g",
+    "image": "57.jpg",
+    "description": "BISISFLAVORS"
+  },
+  {
+    "id": 44,
+    "name": "CURRY POWDER 80g",
+    "image": "58.jpg",
+    "description": "BISISFLAVORS"
+  },
+  {
+    "id": 45,
+    "name": "GROUND CAYENNE PEPPER (ATAGUNGUN)",
+    "image": "59.jpg",
+    "description": "BISISFLAVORS"
+  },
+  {
+    "id": 46,
+    "name": "GINGER POWDER 90g",
+    "image": "60.jpg",
+    "description": "BISISFLAVORS"
+  }
+]
